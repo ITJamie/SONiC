@@ -23,6 +23,7 @@ the same failure or requires every fix.
 | --- | --- | --- |
 | sonic-platform-common | [#808 — Add a Linux watchdog adapter without query side effects](https://github.com/sonic-net/sonic-platform-common/pull/808) | ![PR state](https://img.shields.io/github/pulls/detail/state/sonic-net/sonic-platform-common/808) |
 | sonic-buildimage | [#30780 — Restore SDK initialization and platform health on Edgecore switches](https://github.com/sonic-net/sonic-buildimage/pull/30780) | ![PR state](https://img.shields.io/github/pulls/detail/state/sonic-net/sonic-buildimage/30780) |
+| sonic-buildimage (optional) | [#30784 — Retain SDK startup diagnostics and report scache exhaustion](https://github.com/sonic-net/sonic-buildimage/pull/30784) | [![PR state](https://img.shields.io/github/pulls/detail/state/sonic-net/sonic-buildimage/30784)](https://github.com/sonic-net/sonic-buildimage/pull/30784) |
 
 Related reports:
 
