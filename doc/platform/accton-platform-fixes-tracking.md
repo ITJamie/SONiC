@@ -29,6 +29,18 @@ Related reports:
 - [sonic-buildimage #30779 — Accton/Edgecore platform failures](https://github.com/sonic-net/sonic-buildimage/issues/30779).
 - [sonic-platform-common #807 — Linux watchdog helper](https://github.com/sonic-net/sonic-platform-common/issues/807).
 
+## Optional related SDK diagnostics
+
+[sonic-buildimage #30784 — Retain SDK startup diagnostics and report scache exhaustion](https://github.com/sonic-net/sonic-buildimage/pull/30784)
+adds diagnostic capture for Broadcom SDK initialization failures. It retains
+the SDK's detailed error output and reports explicit stable-cache exhaustion
+in normal SONiC logs, making failures such as those investigated on AS7326
+easier to diagnose.
+
+This is a generic Broadcom logging improvement, not a dependency of the Accton
+platform fixes. It does not change the stable-cache allocation and can be
+reviewed and merged independently of #808 and #30780.
+
 ## Scope
 
 | Area | Change | Platforms |
